@@ -38,7 +38,7 @@ This was an attempt at taking the more "boilerplate-y" React templates for Visua
 - Redux
 - NodeJS > 8
 - Webpack
-- A deeper knownedge of ASP .NET and C# than myself. SDK had several updates since Jen wrote this SPA in 2017.
+- A more current working knownedge of ASP .NET and C# than Jen has. SDK had several updates since Jen wrote this SPA in 2017.
 
 
 
