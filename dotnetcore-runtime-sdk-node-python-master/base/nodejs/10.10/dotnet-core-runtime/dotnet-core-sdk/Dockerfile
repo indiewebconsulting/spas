@@ -1,5 +1,5 @@
 ### ASP.NET Core SDK 2.1.401
-FROM jonmcquade/dotnetcore-runtime-sdk-node-python:dotnetcore-runtime
+FROM indiewebconsult/dotnetcore-runtime-sdk-node-python:dotnetcore-runtime
 # Disable the invariant mode (set in base image)
 RUN apk add --no-cache icu-libs libintl
 
