@@ -6,7 +6,7 @@
 ### Seasonally in-process React playground and self-education tool
 This hybrid ReactJS playground is Jen's first attempt at a more meaningful SPA experience, having done "like a billion" landing pages across a ten year FTE marketing developer position.
 
-It's a floating, draggable cube, displaying nine of the latest Instagram images from a selectable hashtag. Some complex theming implementations at a demonstratable level, including Redux state management with Redux Sagas.
+It's a floating, draggable cube, displaying nine of the latest Instagram images on each side, from a selectable set of hashtags. Some complex theming implementations at a demonstratable level, including Redux state management of the cube and Instagram requests, with Redux Sagas.
 
 ## Status: Ongoing
 ### Version: 0.3.4
