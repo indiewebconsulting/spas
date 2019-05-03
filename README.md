@@ -14,7 +14,7 @@ It's a floating, draggable cube, displaying nine of the latest Instagram images 
 ### Status: Ongoing
 ### Version: 0.3.6
 ### Condition
-Typically only a few minor bugs, but ReactJS continues to grow in complexity with each new release of itself or its many npm packages.  So, you get what you pay for - something free and shiny to look at! If you pound that "watch" or "star" icons, you can be notified when Jen pushes something new. 
+Typically only a few minor bugs, but ReactJS continues to grow in complexity with each new release of itself or its many npm packages.  So, you get what you pay for - something free and shiny to look at! If you pound that "watch" or "star" icon, you can be notified when Jen pushes something new. 
 
 ### Implementation Dependencies
 See package.json for the full list. Below are some highlights.
