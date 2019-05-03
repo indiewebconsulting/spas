@@ -1,0 +1,17 @@
+{
+  "app.js": "app.js",
+  "static\\media\\apple-icon.png": ".\\static\\media\\apple-icon.png",
+  "static\\media\\fontawesome-webfont.eot": ".\\static\\media\\fontawesome-webfont.eot",
+  "static\\media\\fontawesome-webfont.svg?v=4.7.0": ".\\static\\media\\fontawesome-webfont.svg",
+  "static\\media\\fontawesome-webfont.ttf?v=4.7.0": ".\\static\\media\\fontawesome-webfont.ttf",
+  "static\\media\\fontawesome-webfont.woff2?v=4.7.0": ".\\static\\media\\fontawesome-webfont.woff2",
+  "static\\media\\fontawesome-webfont.woff?v=4.7.0": ".\\static\\media\\fontawesome-webfont.woff",
+  "static\\media\\glyphicons-halflings-regular.eot": ".\\static\\media\\glyphicons-halflings-regular.eot",
+  "static\\media\\glyphicons-halflings-regular.svg": ".\\static\\media\\glyphicons-halflings-regular.svg",
+  "static\\media\\glyphicons-halflings-regular.ttf": ".\\static\\media\\glyphicons-halflings-regular.ttf",
+  "static\\media\\glyphicons-halflings-regular.woff": ".\\static\\media\\glyphicons-halflings-regular.woff",
+  "static\\media\\glyphicons-halflings-regular.woff2": ".\\static\\media\\glyphicons-halflings-regular.woff2",
+  "static\\media\\icon.png": ".\\static\\media\\icon.png",
+  "static\\media\\loader.gif": ".\\static\\media\\loader.gif",
+  "static\\media\\transparent_square.svg": ".\\static\\media\\transparent_square.svg"
+}
