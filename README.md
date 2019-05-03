@@ -2,6 +2,8 @@
 
 ![Single Page Applications](583A2B8D-8622-4E2E-A03D-F5DF6C7268E8.png)
 
+## !Check back soon for live Heroku, AWS EC2 and ARM64 Hybrid Cloud demonsteration links!
+
 ## ./rubix-demos
 ### Seasonally in-process React playground and self-education tool
 This hybrid ReactJS playground is Jen's first attempt at a more meaningful SPA experience, having done "like a billion" landing pages across a ten year FTE marketing developer position.
