@@ -1,5 +1,5 @@
 # Image 1: Begin with nightly SDK image that contains a build of the solution
-FROM jonmcquade/dotnetcore-runtime-sdk-node-python:dotnetcore-asp AS build
+FROM indiewebconsult/dotnetcore-runtime-sdk-node-python:dotnetcore-asp AS build
 ARG aspenv="Production"
 ENV ASPNETCORE_ENVIRONMENT $aspenv 
 ARG runtime="Release"
@@ -28,13 +28,13 @@ ARG verbosity="detailed"
 ENV VERBOSITY $verbosity
 COPY ./README.md /
 ## Publishing will build from source and run Webpack on dist folder assets
-RUN echo -e "\n\n\n...Publishing to /app/dist ...\n\n\n" \
+RUN echo -e "\n\n\n... Publishing to /app/dist ...\n\n\n" \
     && dotnet publish --self-contained -c $RUNTIME -r alpine.3.6-x64 -v $VERBOSITY -o /app/dist
 
-# Image 3: Alpine .Net Core Runtime 2.1.0 
+# Image 3: Alpine .Net Core Runtime 2.2.0 
 ## Implementing:
-### ASP.NET Core 2.1.0-preview 
-FROM microsoft/dotnet:2.1.0-preview1-runtime-deps-alpine as base
+### ASP.NET Core 2.2.0 
+FROM microsoft/dotnet:2.2-alpine as base
 ARG aspenv="Production"
 ENV ASPNETCORE_ENVIRONMENT $aspenv
 COPY ./src/entrypoint /
@@ -57,7 +57,7 @@ ARG port="3000"
 ENV PORT $port
 ARG sslPort="3001"
 ENV SSL_PORT $sslPort
-ENV DOTNET_SDK_VERSION 2.1.300-preview1-008174
+ENV DOTNET_SDK_VERSION 2.2.0
 ENV DOTNET_SYSTEM_GLOBALIZATION_INVARIANT false
 ENV DOTNET_SKIP_FIRST_TIME_EXPERIENCE true
 ENV LC_ALL en_US.UTF-8

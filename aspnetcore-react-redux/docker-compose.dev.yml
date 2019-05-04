@@ -4,7 +4,7 @@ services:
   
   flightsearch:
     container_name: aspnetcore-react-redux-dev
-    image: jonmcquade/aspnetcore-react-redux:dev
+    image: indiewebconsult/aspnetcore-react-redux:dev
     restart: on-failure:5
     build: 
       context: ./src
