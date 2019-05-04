@@ -1,11 +1,12 @@
 {
     "name": "rubix-demos",
     "version": "0.3.4",
-    "repository": "https://github.com/jonmcquade/rubix-demos",
+    "repository": "https://github.com/indiewebconsulting/spas/rubix-demos",
     "description": "Open 3D Object Viewer",
     "license": "MIT",
     "scripts": {
         "start": "cross-env CLIENT=true NODE_ENV=development node dev_server.js",
+        "build-dev": "cross-env NODE_ENV=development CLIENT=true ./node_modules/webpack/bin/webpack.js -p --config webpack.config.js && node ./node_modules/react-scripts/scripts/build.js",
         "build": "cross-env NODE_ENV=production CLIENT=true ./node_modules/webpack/bin/webpack.js -p --config webpack.production.config.js && node ./node_modules/react-scripts/scripts/build.js",
         "test": "react-scripts test --env=jsdom",
         "eject": "react-scripts eject"

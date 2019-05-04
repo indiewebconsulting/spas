@@ -8,7 +8,7 @@ const CopyWebpackPlugin = require('copy-webpack-plugin');
 
 const ROOT_PATH = path.resolve(__dirname);
 const MODULES_PATH = path.resolve(__dirname, 'node_modules');
-const PUBLIC_PATH = path.resolve(__dirname, 'public');
+const PUBLIC_PATH = path.resolve(__dirname, 'dev_build');
 const SRC_PATH = path.join(ROOT_PATH, 'src');
 
 module.exports = {
