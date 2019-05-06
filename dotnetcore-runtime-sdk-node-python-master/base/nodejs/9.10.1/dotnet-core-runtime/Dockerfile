@@ -1,7 +1,7 @@
 ### ASP.NET Core Runtime 2.1.0-preview1-26216-03
-FROM indiewebconsult/dotnetcore-runtime-sdk-node-python:base
+FROM indiewebconsult/base:nodejs-9.10.1
 WORKDIR /
-ARG dotNetVer="2.1.0-preview1-26216-03"	
+ARG dotNetVer="2.1.0"	
 ENV DOTNET_VERSION $dotNetVer
 RUN apk add --no-cache \	
         ca-certificates \	

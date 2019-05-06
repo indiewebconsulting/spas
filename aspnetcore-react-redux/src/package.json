@@ -4,7 +4,7 @@
     "license": "MIT",
     "repository": {
         "type": "git",
-        "url": "https://github.com/indiewebconsulting/spas"
+        "url": "git+https://github.com/jonmcquade/aspnetcore-react-redux"
     },
     "keywords": [
         "c#",
@@ -38,8 +38,8 @@
         "wp-vendor-prod": "node node_modules/webpack/bin/webpack.js --mode production --config webpack.config.vendor.js",
         "wp-prod": "node node_modules/webpack/bin/webpack.js --mode production --config webpack.config.js",
         "install": "dotnet restore && npm run wp-vendor && npm run wp",
-        "publish": "dotnet publish -o app/dist",
-        "build": "dotnet build -v $VERBOSITY -o app",
+        "publish": "dotnet publish -o /app/dist",
+        "build": "dotnet build -v $VERBOSITY -o /app",
         "start": "npm run wp-vendor && npm run wp && dotnet run -c Debug",
         "prod": "npm run wp-vendor-prod &&npm run wp-prod && dotnet run -c Release"
     },
