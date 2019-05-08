@@ -5,6 +5,28 @@
 ## Check back soon for live Heroku, AWS EC2 and ARM64 Hybrid Cloud demonsteration links!
 We're migrating a lot of our services and properties right now and need a bit of time. Until then, enjoy the code!
 
+## In Process - we care about DevOps before we care about our customers
+- Build automation with Jenkins
+- Build script testing with Dockerfile integrations
+- Release management in AWS (S3 for cube.indiewebconsulting.com and EC2 for flights.indiewebconsulting.com)
+- Release management in IWC's Intranet (Prod-facing origin servers)
+- Release management in Suite Potato Pi ARM64v8 SBC with Amlogic S905x SoC
+
+## Here's how to build things to break your own things from our things. Things.
+
+### [Flights App](https://github.com/indiewebconsulting/spas/tree/master/aspnetcore-react-redux)
+- Clone the IWC spas repository with `git clone http://git.indiewebconsulting.com/spas.git` and then `cd spas/aspnetcore-react-redux` to enter the ASP .NET Core "Flight Search" App.
+- Build the latest version of the app using Docker by entering `$ sudo docker-compose build`. You can modify the building Docker image inside docker-compose.yml, to use your own Dockerhub namespace.
+- Once a successful build is complete, run `docker-compose up -d` to run the Flights app in daemon mode, which will start a Web server on port `:3000`.
+- Open `http://localhost:3000` to see the production-ready ASP .NET Core 2.1 application in your browser.
+
+### [Rubix App](https://github.com/indiewebconsulting/spas/tree/master/rubix-demos)
+- Clone the IWC spas repository with `git clone http://git.indiewebconsulting.com/spas.git` and then `cd spas/rubix-demos` to enter the React for Web Single Page Application.
+- Build the latest version of the app using Docker by setting `$ sudo docker-compose -f docker-compose.prod.yml build` for a production release or `$ sudo docker-compose -f docker-compose.yml build` for the developer release.
+- Once a successful build is complete, run `docker-compose up -d` to run the Rubix demo app in daemon mode, which will start a Web server on port `:8080`.
+- Open `http://localhost:8080` to see the React app rendered in your browser.
+- You can also run `$ cd spas/rubix-demos/src ; npm install` to install required libraries locally instead of building from Docker. Aftern running `npm install`, run `npm run-script build` to build a publicly releasable static folder of files. Or, run `npm run-script start` to open the application for developing locally.
+
 ## ./rubix-demos
 ### Seasonally in-process React playground and self-education tool
 This hybrid ReactJS playground is Jen's first attempt at a more meaningful SPA experience, having done "like a billion" landing pages across a ten year FTE marketing developer position.
