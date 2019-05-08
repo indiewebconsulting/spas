@@ -2,7 +2,7 @@
 
 ![Single Page Applications](583A2B8D-8622-4E2E-A03D-F5DF6C7268E8.png)
 
-## Check back soon for live Heroku, AWS EC2 and ARM64 Hybrid Cloud demonsteration links!
+## Check back soon for live Heroku, AWS EC2 and ARM64 Hybrid Cloud demonstration links!
 We're migrating a lot of our services and properties right now and need a bit of time. Until then, enjoy the code!
 
 ## In Process - we care about DevOps before we care about our customers
