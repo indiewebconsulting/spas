@@ -9,6 +9,7 @@ We're migrating a lot of our services and properties right now and need a bit of
 - Build automation with Jenkins
 - Build script testing with Dockerfile integrations
 - Release management in AWS (S3 for cube.indiewebconsulting.com and EC2 for flights.indiewebconsulting.com)
+- Release management as a Heroku automated deploy from GitHub
 - Release management in IWC's Intranet (Prod-facing origin servers)
 - Release management in Suite Potato Pi (Libre Le Potato ARM64v8 SBC with Amlogic S905x SoC)
 
