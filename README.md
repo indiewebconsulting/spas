@@ -16,13 +16,13 @@ We're migrating a lot of our services and properties right now and need a bit of
 ## Here's how to build things to break your own things from our things. Things.
 
 ### [Flights App](https://github.com/indiewebconsulting/spas/tree/master/aspnetcore-react-redux)
-- Clone the IWC spas repository with `git clone http://git.indiewebconsulting.com/spas.git` and then `cd spas/aspnetcore-react-redux` to enter the ASP .NET Core "Flight Search" App.
+- Clone the IWC spas repository with `git clone http://git.indiewebconsulting.com/spas.git` and then `cd spas/aspnetcore-react-redux` to enter the ASP .NET Core "Flight Search" App project root directory.
 - Build the latest version of the app using Docker by entering `$ sudo docker-compose build`. You can modify the building Docker image inside docker-compose.yml, to use your own Dockerhub namespace.
 - Once a successful build is complete, run `docker-compose up -d` to run the Flights app in daemon mode, which will start a Web server on port `:3000`.
 - Open `http://localhost:3000` to see the production-ready ASP .NET Core 2.1 application in your browser.
 
 ### [Rubix App](https://github.com/indiewebconsulting/spas/tree/master/rubix-demos)
-- Clone the IWC spas repository with `git clone http://git.indiewebconsulting.com/spas.git` and then `cd spas/rubix-demos` to enter the React for Web Single Page Application.
+- Clone the IWC spas repository with `git clone http://git.indiewebconsulting.com/spas.git` and then `cd spas/rubix-demos` to enter the React for Web Single Page Application project root directory.
 - Build the latest version of the app using Docker by setting `$ sudo docker-compose -f docker-compose.prod.yml build` for a production release or `$ sudo docker-compose -f docker-compose.yml build` for the developer release.
 - Once a successful build is complete, run `docker-compose up -d` to run the Rubix demo app in daemon mode, which will start a Web server on port `:8080`.
 - Open `http://localhost:8080` to see the React app rendered in your browser.
