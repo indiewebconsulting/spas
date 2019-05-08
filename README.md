@@ -10,7 +10,7 @@ We're migrating a lot of our services and properties right now and need a bit of
 - Build script testing with Dockerfile integrations
 - Release management in AWS (S3 for cube.indiewebconsulting.com and EC2 for flights.indiewebconsulting.com)
 - Release management in IWC's Intranet (Prod-facing origin servers)
-- Release management in Suite Potato Pi ARM64v8 SBC with Amlogic S905x SoC
+- Release management in Suite Potato Pi (Libre Le Potato ARM64v8 SBC with Amlogic S905x SoC)
 
 ## Here's how to build things to break your own things from our things. Things.
 
